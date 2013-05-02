@@ -1,6 +1,6 @@
 import os, sys
 import random
-import namedtuple
+from collections import namedtuple
 
 Segment = namedtuple("Segment", "angle distance")
 
