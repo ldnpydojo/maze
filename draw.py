@@ -12,9 +12,9 @@ def draw_path(path, t):
 def main():
     screen = turtle.Screen()
     t = turtle.Turtle()
-    p = maze.Path()
+    p = maze.Path(None, None)
     p.steps = [maze.Segment(random.randrange(5, 100), random.randrange(-90, 90)) for i in range(100)]
-
+    p.steps = maze.r
     draw_path(p, t)
     raw_input()
 
