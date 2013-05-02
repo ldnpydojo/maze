@@ -1,5 +1,6 @@
 import os, sys
 import random
+import namedtuple
 
 class Path(object):
 
