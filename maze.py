@@ -2,6 +2,8 @@ import os, sys
 import random
 import namedtuple
 
+Segment = namedtuple("Segment", "angle distance")
+
 class Path(object):
 
     def __init__(self):
